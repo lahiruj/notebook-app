@@ -1,0 +1,5 @@
+<h1>Note</h1>
+<%= render @note %>
+
+<%= link_to 'Edit', edit_note_path(@note) %>
+<%= button_to "Delete", note_path(@note), method: :delete %>
